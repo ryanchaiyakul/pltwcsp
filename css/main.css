@@ -1,8 +1,85 @@
 body {
-  background-color: white;
+    background-color: white;
+    width: 100%;
+    margin-top: inherit;
 }
 
+/* header styling */
+header {
+    width: 100%;
+    background-color: black;
+    border-bottom-style: outset;
+    border-bottom-color: orchid;
+    border-bottom-width: thick;
+    word-spacing: 10px;
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    word-spacing: -1.4px;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding-bottom: 10px;
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+/* heading styling */
 h1 {
-  color: black;
-  margin-left: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    word-spacing: -1.4px;
+    color: white;
+    font-weight: 800;
+    text-decoration: underline;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: -1.4px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+/*link styling */
+
+a {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+}
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: orchid;
+}
+
+a:active {
+  color: darkorchid;
 }

@@ -4,33 +4,45 @@ body {
     margin-top: inherit;
 }
 
-/* header styling */
-header {
-    width: 100%;
+/* top nav styling */
+
+.topnav {
     background-color: black;
-    border-bottom-style: outset;
-    border-bottom-color: orchid;
-    border-bottom-width: thick;
-    word-spacing: 10px;
+    overflow: hidden;
 }
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: orchid;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
 p {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 12px;
     letter-spacing: 1px;
     word-spacing: -1.4px;
-    color: white;
+    color: black;
     font-weight: 800;
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    padding-bottom: 10px;
-    background-color: black;
-    width: 80%;
-    margin-left: 10%;
-    padding-top: 20px;
-    padding-left: 10px;
     
 }
 /* heading styling */
@@ -39,14 +51,12 @@ h1 {
     font-size: 35px;
     letter-spacing: 1px;
     word-spacing: -1.4px;
-    color: white;
+    color: black;
     font-weight: 800;
     text-decoration: underline;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    background-color: black;
-    padding-bottom: 10px;
 }
 
 h2 {

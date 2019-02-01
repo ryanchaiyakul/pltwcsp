@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+<link rel="stylesheet" href="index.css" type="text/css" />
+<style type="text/css">
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +12,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
 
 .topnav a {
@@ -28,24 +29,65 @@ body {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
+.topnav .active {
+  background-color: darkorchid;
   color: white;
 }
+
+.titleheading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: indigo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.titleheading h1 {
+  color: white;
+  font-size: 35px;
+}
+
+.partialwidth {
+  margin: auto;
+  align-items: center;
+  width: 70%;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.partialwidth h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partialwidth p{
+  text-indent: 15px;
+  padding-top: 10px;
+  text-align: left;
+}
+
 </style>
 </head>
 <body>
 
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="portfolio.html">Portfolio</a>
 </div>
 
-<div style="padding-left:16px">
-  <h2>Top Navigation Example</h2>
-  <p>Some content..</p>
+<div class="titleheading">
+  <h1> Home </h1>
+</div>
+
+<div class ="partialwidth">
+  <h2> About Me</h2>
+  <p> I am a freshman at RBHS who is currently taking AP Computer Science Principles.</p>
 </div>
 
 </body>

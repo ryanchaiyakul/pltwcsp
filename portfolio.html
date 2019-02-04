@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="index.css" type="text/css" />
 <style type="text/css">
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif	
+;
 }
 
 .topnav {
@@ -35,9 +35,19 @@ body {
 }
 
 .titleheading {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: indigo;
+  /* The image used */
+  background-image: linear-gradient(to bottom right, indigo, lavender);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,6 +76,30 @@ body {
   justify-content: center;
 }
 
+.partialwidth p{
+  text-indent: 15px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax {
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 </style>
 </head>
 <body>
@@ -76,12 +110,9 @@ body {
 </div>
 
 <div class="titleheading">
-  <h1> Portfolio </h1>
+  <h1> Home </h1>
 </div>
 
-<div class ="partialwidth">
-  <h2> About Me</h2>
-</div>
 
 </body>
 </html>

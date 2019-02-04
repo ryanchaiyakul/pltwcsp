@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="index.css" type="text/css" />
 <style type="text/css">
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif	
+;
 }
 
 .topnav {
@@ -35,9 +35,19 @@ body {
 }
 
 .titleheading {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: indigo;
+  /* The image used */
+  background-image: linear-gradient(to bottom right, indigo, lavender);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,6 +82,24 @@ body {
   text-align: left;
 }
 
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax {
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 </style>
 </head>
 <body>
@@ -87,8 +115,8 @@ body {
 
 <div class ="partialwidth">
   <h2> About Me</h2>
-  <p> I am a freshman at RBHS who is currently taking AP Computer Science Principles. I have many years of experience programming in Pyhton and recently Java. I am hoping to learn php and css so that I can make a website for a project.</p>
-  <a href="https://imgur.com/a3KMaG7"><img src="https://i.imgur.com/a3KMaG7.jpg" title="source: imgur.com" /></a>
+  <p> I'm a freshman at RBHS who is taking AP Computer Science Principles. I have been programming in Python and recently Java for many years and have made a few projects. In addition to programming, I play tennis and recently started breaking. In my free time, I play the guitar and care for plants. I currently have a few orchids blooming in my tropical display.</p>
+  <a href="https://imgur.com/V30GJNT" class ="center"><img src="https://i.imgur.com/V30GJNT.jpg" title="source: imgur.com" /></a>
 </div>
 
 </body>

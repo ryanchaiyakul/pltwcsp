@@ -1,147 +1,145 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title> Portfolio </title>
-<link rel="stylesheet" href="index.css" type="text/css" />
-<style type="text/css">
-body {
-  margin: 0;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif	
-;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: black;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav .active {
-  background-color: darkorchid;
-  color: white;
-}
-
-.titleheading {
-  /* The image used */
-  background-image: linear-gradient(to bottom right, indigo, lavender);
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-  
-.titleheading h1 {
-  color: white;
-  font-size: 35px;
-}
-
-.partialwidth {
-  margin: auto;
-  align-items: center;
-  width: 70%;
-  padding-top: 10px;
-  background-color: white;
-}
-
-.partialwidth h2{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.partialwidth p{
-  text-indent: 15px;
-  padding-top: 10px;
-  text-align: left;
-}
-
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.parallax {
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-</style>
+    <meta charset="utf-8">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: black;
+        }
+        
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .topnav .active {
+            background-color: darkorchid;
+            color: white;
+        }
+        
+        .titleheading {
+            /* The image used */
+            background-image: linear-gradient(to bottom right, indigo, lavender);
+            /* Full height */
+            height: 100%;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 200px;
+            padding-bottom: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .titleheading h1 {
+            color: white;
+            font-size: 35px;
+        }
+        
+        .partialwidth {
+            margin: auto;
+            align-items: center;
+            width: 70%;
+            padding-top: 10px;
+            background-color: white;
+        }
+        
+        .partialwidth h2 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .partialwidth p {
+            text-indent: 15px;
+            padding-top: 10px;
+            text-align: left;
+        }
+        
+        .center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .parallax {
+            /* Full height */
+            height: 100%;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="topnav">
-  <a href="index.html">Home</a>
-  <a class="active" href="portfolio.html">Portfolio</a>
-</div>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+    </div>
 
-<div class="titleheading">
-  <h1> Portfolio </h1>
-</div>
-<div class="partialwidth">
-  <h2> Scratch Game </h2>
-  <p> A fast paced two player game. Control different animals with different stats and hit the opponent until their life is gone. </p>
-  <iframe src="https://jamesbmadden.github.io/scratch-silicon/#287002514" width="600px" height="480px" allowFullscreen></iframe>
-  <h2> Tilt Maze Game </h2>
-  <p> Control a ball in a maze by tilting your device. If you touch the walls you restart at the beginning. </p>
-  <a href="tiltmaze.apk" download> <img src="https://i.imgur.com/Woj6VjQ.png" height = "480px"></img> </a>
-  <h2> Interactive Fiction </h2>
-  <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/storypy?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h2> Blackjack </h2>
-  <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Card-Game?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h2> Hangman </h2>
-  <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Hangman?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h2> TicTacToe </h2>
-  <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Tic-Tac-Toe?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h2> Picture Manipulation </h2>
-  <h3> Red Increase </h3>
-  <img src="red_increase.jpeg" alt="red increase" height="478" width="640">
-  <h3> Darken </h3>
-  <img src="darken.jpeg" alt="darken" height="478" width="640">
-  <h3> Invert </h3>
-  <img src="invert.jpeg" alt="inverted" height="478" width="640">
-  <h3> Original </h3>
-  <img src="original.jpeg" alt="original" height="331" width="500">
-  <h2> Rock Paper Scissors Simulation </h2>
-  <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Simultation?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h2> Big Data </h2>
-  <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Big-Data?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-  <h2> NetLogo Simulation </h2>
-  <script src="https://gist.github.com/ryanchaiyakul/363ddb093e4da737e6a5abd112f5d76b.js"></script>
-  </body>
+    <div class="titleheading">
+        <h1> Portfolio </h1>
+    </div>
+    <div class="partialwidth">
+        <h2> Scratch Game </h2>
+        <p> A fast paced two player game. Control different animals with different stats and hit the opponent until their life is gone. </p>
+        <iframe src="https://jamesbmadden.github.io/scratch-silicon/#287002514" width="600px" height="480px" allowFullscreen></iframe>
+        <h2> Tilt Maze Game </h2>
+        <p> Control a ball in a maze by tilting your device. If you touch the walls you restart at the beginning. </p>
+        <a href="tiltmaze.apk" download> <img src="https://i.imgur.com/Woj6VjQ.png" height="480px"></img>
+        </a>
+        <h2> Interactive Fiction </h2>
+        <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/storypy?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <h2> Blackjack </h2>
+        <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Card-Game?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <h2> Hangman </h2>
+        <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Hangman?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <h2> TicTacToe </h2>
+        <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Tic-Tac-Toe?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <h2> Picture Manipulation </h2>
+        <h3> Red Increase </h3>
+        <img src="red_increase.jpeg" alt="red increase" height="478" width="640">
+        <h3> Darken </h3>
+        <img src="darken.jpeg" alt="darken" height="478" width="640">
+        <h3> Invert </h3>
+        <img src="invert.jpeg" alt="inverted" height="478" width="640">
+        <h3> Original </h3>
+        <img src="original.jpeg" alt="original" height="331" width="500">
+        <h2> Rock Paper Scissors Simulation </h2>
+        <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Simultation?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <h2> Big Data </h2>
+        <iframe height="800px" width="100%" src="https://repl.it/@ryanchaiyakul/Big-Data?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        <h2> NetLogo Simulation </h2>
+        <script src="https://gist.github.com/ryanchaiyakul/363ddb093e4da737e6a5abd112f5d76b.js"></script>
+</body>
+
 </html>
